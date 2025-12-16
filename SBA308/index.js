@@ -32,7 +32,6 @@ const AssignmentGroup = {
   ]
 };
 
-
 // The provided learner submission data.
 const LearnerSubmissions = [
   {
@@ -77,26 +76,17 @@ const LearnerSubmissions = [
   }
 ];
 
-function getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions) {
-  
-  
-}
-const assignments = [
-  { name: "Declare a Variable", due_at: ("2023-01-25") },
-  { name: "Write a Function", due_at: ("2023-02-27") },
-  { name: "Code the World", due_at:("3156-11-15") }, 
-  let totalPoints_possible = (50 + 150 + 500) 
-  
-  
-  console.log(totalPoints_possible)
+function getLearnerData(course, ag, submissions) {
+  // here, we would process this data to achieve the desired result.
+  const result = [];
+
   return result;
-  console.log(assignments)
-  
-];
-  
-const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions); 
-    
+}
+
+const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
+
 console.log(result);
+
 
   
 // function getLearnerData(course, ag, submissions) {
@@ -134,3 +124,17 @@ console.log(result);
 // Main function was already created for you, so use it
 // The whole logic revolves around 1 main loop!!!!!
 // Refer to the expected output.
+
+
+// const assignments = [
+//   { name: "Declare a Variable", due_at: ("2023-01-25") },
+//   { name: "Write a Function", due_at: ("2023-02-27") },
+//   { name: "Code the World", due_at:("3156-11-15") }, 
+//   let totalPoints_possible = (50 + 150 + 500) 
+  
+  
+//   console.log(totalPoints_possible)
+//   return result;
+//   console.log(assignments)
+  
+// ];
