@@ -78,9 +78,31 @@ const LearnerSubmissions = [
 
 function getLearnerData(course, ag, submissions) {
   // here, we would process this data to achieve the desired result.
+  
+  
+}
+try {
+  
+  
   const result = [];
+  const assignments = [
+    { name: "Declare a Variable", due_at: ("2023-01-25") },
+    { name: "Write a Function", due_at: ("2023-02-27") },
+    { name: "Code the World", due_at:("3156-11-15") }, 
+  ];
+  
+  console.log(assignments)
+  
+  let totalPoints_possible = 0;
+  for (let points_possible of points_possible){
+    totalPoints_possible += assignments.points_possible;
+  }
+  
+  console.log(totalPoints_possible)
+  
 
   return result;
+} catch (error) {
 }
 
 const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
@@ -126,15 +148,7 @@ console.log(result);
 // Refer to the expected output.
 
 
-// const assignments = [
-//   { name: "Declare a Variable", due_at: ("2023-01-25") },
-//   { name: "Write a Function", due_at: ("2023-02-27") },
-//   { name: "Code the World", due_at:("3156-11-15") }, 
-//   let totalPoints_possible = (50 + 150 + 500) 
   
   
-//   console.log(totalPoints_possible)
-//   return result;
-//   console.log(assignments)
+
   
-// ];
